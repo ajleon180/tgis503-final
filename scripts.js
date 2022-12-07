@@ -1,3 +1,4 @@
+//This section of code establishes the slides for the interactive storytelling (Scrollytelling) functionality of Mapbox. Each item in the curly brackets is an individual slide.
 var config = {
     style: 'mapbox://styles/ajleon180/clb4pfq8j000h14pi54eudn8d',
     accessToken: 'pk.eyJ1IjoiYWpsZW9uMTgwIiwiYSI6ImNsYTQ4ZDVqcTA5cHYzd21seGszbWI3eDIifQ.yaXUrccsnQ_RHZqxu7UKNw',
@@ -428,6 +429,9 @@ var config = {
       },
     ]
   };
+
+//The following code sets up the functionality of interactive storytelling. The comments below came with the code and describe what's happening.
+
   var layerTypes = {
     'fill': ['fill-opacity'],
     'line': ['line-opacity'],
